@@ -3,18 +3,18 @@
 using namespace std;
 
 int main() {
-
-    char ch; 
-    cout << endl << ">>";
-    cin  >> ch;
-
-    if (ch >= 'a' && ch <= 'z')
+    char letter;
+    cin >> letter;
+    
+    if (letter <= 'z' && letter >= 'a')
     {
-        cout << "It's Lower";
+        cout << "Lower";
     }
-    else {
-        cout << "It's Upper";
+    else{
+        cout<< "Upper";
     }
+    
+    
     return 0;
 
 

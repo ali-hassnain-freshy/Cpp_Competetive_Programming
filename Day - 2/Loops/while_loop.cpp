@@ -7,7 +7,7 @@ int main() {
     cout << "How Much Numebrs Stairght";
     cin >> n;
     int count = 1;
-    while (count <= n)
+    while (count <= 5)
     {
         cout << count << " " << endl;
         count ++;
